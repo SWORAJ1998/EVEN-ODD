@@ -1,0 +1,26 @@
+#container{
+    padding-top: 20px;
+    margin-top: 100px;
+    height: 100px;
+    width: 250px;
+    background-color: rgb(215, 122, 8);
+    align-items: center;
+    border: 15px solid rgb(252, 207, 6);
+}
+body{
+    background-color: black;
+}
+#even{
+    transition: all 1s;
+    animation-name: sk;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    color: rgb(44, 6, 6);
+}
+@keyframes sk{
+from{color: bisque;}
+to{color: blanchedalmond;}
+}
+#num{
+    background-color: rgb(207, 214, 207);
+}
